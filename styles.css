@@ -24,8 +24,9 @@ h2 {
     animation-name: desplazarse;
     animation-duration: 1s;
     animation-iteration-count: infinite;
-    animation-direction: normal;
+    animation-direction: alternate;
     position: relative;
+    animation-fill-mode: ;
 }
 
 @keyframes desplazarse {
@@ -43,8 +44,8 @@ h2 {
     }
 }
 .pendejadas {
-    font-family: sans-serif;
-    height: 20px; color: blueviolet;
+    font-family: sans-serif; height: 40;
+   color: blueviolet;
 }
 
 

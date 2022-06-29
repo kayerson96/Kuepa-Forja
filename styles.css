@@ -44,8 +44,20 @@ h2 {
     }
 }
 .pendejadas {
-    font-family: sans-serif; height: 40;
+    font-family: sans-serif;
+    font-size: 30px;
    color: blueviolet;
+   font-weight: bold;
+   text-align: center;
+
+}
+.name {
+    color: yellow;
+    background: black;
+    font-family: sans-serif;
+    font-size: 50px;
+    text-transform: capitalize;
+    word-spacing: 15px;
 }
 
 

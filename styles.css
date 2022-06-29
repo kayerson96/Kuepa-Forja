@@ -7,3 +7,44 @@ h2 {
 
     background-color: orangered;
 }
+
+
+.container {
+    padding: 20px 5px;
+    background: #86f;
+    border-radius: 50%;
+}
+
+.caja {
+    background: #025;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+
+    animation-name: desplazarse;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    position: relative;
+}
+
+@keyframes desplazarse {
+    0% {
+        left: 0;
+        background: #025;
+    }
+    50% {
+        background: red;
+    }
+
+    100% {
+        left: 80%;
+        background: green;
+    }
+}
+.pendejadas {
+    font-family: sans-serif;
+    height: 20px; color: blueviolet;
+}
+
+
